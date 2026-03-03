@@ -15,7 +15,7 @@ fun main() {
     val city = "Paris"
     var temperature = 15.0
     println("It is ${temperature}°C in ${city}")
-    
+
     temperature = 18.5
     println("It is ${temperature}°C in ${city}")
 
@@ -49,7 +49,7 @@ fun main() {
         println(fruit.uppercase())
     }
     println("Total fruits: ${fruits.size}")
-    
+
     println("Enter a fruit name:")
     val userFruit = readLine()
     if (userFruit in fruits) {
